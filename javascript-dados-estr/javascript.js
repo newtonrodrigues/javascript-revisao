@@ -15,7 +15,21 @@
     }
 
     function botaoDois(){
-        document.getElementById("textoNome").innerText = new Date
+      /*   document.getElementById("textoNome").innerText = new Date
+        for (let index = 0; index <= 10; index++) {
+              if (index % 2 == 0) {
+                document.getElementById("textoNome").innerText = (index)
+                console.log(index)
+              }
+        } */
+
+        index2 = 0
+        while (index2 <= 10) {
+            index2++
+            if (index2 % 2 == 0) {
+                document.getElementById("textoNome").innerText = index2
+            }
+        }
     }
 
     function botaoTres(){
